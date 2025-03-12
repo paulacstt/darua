@@ -7,6 +7,10 @@
  
 
      body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     height: 100vh;
     margin: 0;
     box-sizing: border-box;
@@ -38,24 +42,31 @@
 
     .apresentacao {
         display: flex;
-        width: 320px;
+        box-sizing: border-box;
         height: 100vh;
+        text-align: center;
         align-items: center;   
         justify-content: center;
-        align-content: center;
         flex-direction: column;
         gap: 4em;
+    }
+
+    .logo{
+        width: 320px;
     }
 
     .apresentacao__titulo{
         font-size: 22px;
         font-family: "Mulish", sans-serif;
+        width: 320px;
+        text-align: center;
     }
 
     .apresentacao__frase{
         font-size: 15px;
         text-align: center;
         font-family: "Montserrat", serif;
+        width: 320px;
     }
 
     .apresentacao__links{
