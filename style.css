@@ -7,12 +7,7 @@
  
 
      body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     height: 100vh;
-    margin: 0;
     box-sizing: border-box;
     background: black;
 }
@@ -76,15 +71,34 @@
     }
 
     .apresentacao__links__botao{
-        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        border-radius: 8px;
         background-color: white;
         padding: 10px;
         width: 140px;
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
         text-decoration: none;
         font-family: "Montserrat", serif;
         color: black;
         font-weight: 600;
     }
 
+    .rodape {
+        color: #FFFFFF;
+        background-color: white;
+        padding: 2px;
+    }
+
+    footer {
+        position: relative;
+    }
+
+    .rodape__texto{
+        color: black;
+        text-align: right;
+        font-family: "Montserrat", serif;
+        font-size: 12px;
+    }
